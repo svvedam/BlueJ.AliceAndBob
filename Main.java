@@ -6,16 +6,16 @@ public class Main {
 
     public static void main(String[] args ){
         Scanner scanner = new Scanner(System.in);
-        String firstName;
-        String secondName;
+        String name;
+       
         System.out.println("Enter the first name : ");
-        firstName= scanner.nextLine();
-        System.out.println("Enter the second name : ");
-        secondName = scanner.nextLine();
+        name= scanner.nextLine();
         
-        if ((firstName.equals("Alice")) || (secondName.equals("Bob")))
+        
+        
+        if ((name.equals("Alice")) || (name.equals("Bob")))
         {
-        System.out.println("Greetings " + firstName + " " + secondName);
+        System.out.println("Greetings!!! " + name);
        
         }
 
